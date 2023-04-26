@@ -1,4 +1,4 @@
-# Credit_Risk_Analysis
+# Credit Risk Analysis
  
 ## Analysis
 
@@ -15,6 +15,7 @@ Our goal is to evaluate the performance of different machine learning models to 
 ![Random Oversampler Confusion Matrix](NROConf.png)
 
 - Classification Report
+- 
 ![Random Oversampler Scores](NROScores.png)
 
 ### SMOTE Oversampling
@@ -26,7 +27,7 @@ Our goal is to evaluate the performance of different machine learning models to 
 ![SMOTE Confusion Matrix](SMOTEConf.png)
 
 - Classification Report
-
+- 
 ![SMOTE Scores](SMOTEScores.png)
 
 ### Undersampling
@@ -78,5 +79,5 @@ Our goal is to evaluate the performance of different machine learning models to 
 ![Ensemble Classifier Scores](EECScores.png)
 
 ## Summary
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+
+Overall, each of the sampling options have weaknesses, though the Random Forest Classifier and Easy Ensemble Classifier ended up with very good precision and recall (and therefore good F1 scores). If I were to recommend one of these, the Easy Ensemble Classifier has the best scores, and generally has good accuracy.
