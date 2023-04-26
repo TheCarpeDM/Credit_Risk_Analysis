@@ -8,50 +8,50 @@ Our goal is to evaluate the performance of different machine learning models to 
 
 ### Naive Random Oversampler
 
--Balanced Accuracy Score: 0.57
--Confusion Matrix
+- Balanced Accuracy Score: 0.57
+- Confusion Matrix
 ![Random Oversampler Confusion Matrix](NROConf.png)
--Classification Report
+- Classification Report
 ![Random Oversampler Scores](NROScores.png)
 
 ### SMOTE Oversampling
 
--Balanced Accuracy Score: 0.64
--Confusion Matrix
+- Balanced Accuracy Score: 0.64
+- Confusion Matrix
 ![SMOTE Confusion Matrix](SMOTEConf.png)
--Classification Report
+- Classification Report
 ![SMOTE Scores](SMOTEScores.png)
 
 ### Undersampling
 
--Balanced Accuracy: 0.64
--Confusion Matrix
+- Balanced Accuracy: 0.64
+- Confusion Matrix
 ![Undersampling Confusion Matrix](USConf.png)
--Classification Report
+- Classification Report
 ![Undersampling Scores](USScores.png)
 
 ### SMOTEEN Combination (Over & Under) Sampling
 
--Balanced Accuracy: 0.64
--Confusion Matrix
+- Balanced Accuracy: 0.64
+- Confusion Matrix
 ![Combination Sampling Confusion Matrix](SMOTEConf.png)
--Classification Report
+- Classification Report
 ![Combination Sampling Scores](SMOTEScores.png)
 
 ### Random Forest Classifier
 
--Balanced Accuracy: 0.67
--Confusion Matrix
+- Balanced Accuracy: 0.67
+- Confusion Matrix
 ![Random Forest Classifier Confusion Matrix](RFCConf.png)
--Classification Report
+- Classification Report
 ![Random Forest Classifier Scores](RFCScores.png)
  
 ### Easy Ensemble AdaBoost Classifier
 
--Balanced Accuracy: 0.92
--Confusion Matrix
+- Balanced Accuracy: 0.92
+- Confusion Matrix
 ![Ensemble Classifier Confusion Matrix](EECConf.png)
--Classification Report
+- Classification Report
 ![Ensemble Classifier Scores](EECScores.png)
 
 ## Summary
